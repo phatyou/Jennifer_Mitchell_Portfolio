@@ -1,12 +1,13 @@
-# Basic Portfolio
+# Portfolio
 
-This basic portfolio was an exercise in HTML and CSS. It follows an assigned wireframe, with a bit of personal styling.
+This basic portfolio was an exercise in HTML and CSS, and mobile-responsiveness sans bootstrap. It follows a given wireframe, personal styling shows up in the footer, font selection, etc.
 
-This project was created as an assignment for the Coding Bootcamp at UT Austin.
+This project was created as an assignment for the University of Utah Coding Bootcamp at Salt Lake City, UT.
 
-<a href="https://evil-mansion-77523.herokuapp.com/">View the finished product on Heroku.</a>
+View the finished product on Heroku.
 
 # Technologies Used
 
 - HTML
 - CSS
+    -media queries
