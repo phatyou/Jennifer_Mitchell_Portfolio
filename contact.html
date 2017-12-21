@@ -1,71 +1,72 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html lang="en-us">
 <head>
-	<meta charset="UTF-8">
-	<title>Jennifer Lynn Mitchell</title>
-	<link rel="stylesheet" type="text/css" href="reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link rel ="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Abhaya+Libre|Montserrat">
+  <meta charset="UTF-8">
+  <title>About | Jennifer Mitchell</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!-- Google Fonts -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Abhaya+Libre|Montserrat">
 </head>
+<body>
 
-<body>	
-<div class="master-header">	
-	<header>
-		<div id="name">
-			<h1>Jennifer Mitchell</h1>
-		</div>
-		<div id="nav">
-		<ul class="nav">
-			<li><a href="index.html">About</a></li>
-			<li><a href="portfolio.html">Portfolio</a></li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>
-		</div>
-	</header>
+<div class="wrapper">
+
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Jennifer Mitchell</a>
+      <nav>
+        <ul>
+          <li><a href="index.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
+
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
+
+    </section>
+
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
+
+        <ul>
+          <li><a href="#"><img src="assets/images/github-128.png" alt="Github"></a></li>
+          <li><a href="#"><img src="assets/images/linkedin-128.png" alt="LinkedIn"></a></li>
+          <li><a href="#"><img src="assets/images/stackoverflow-128.png" alt="Stack Overflow"></a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <div class="push"></div>
 </div>
-<!--<div id="bg-container">-->
-<div id="wrapper">
-	<article>
-		<h2>Contact</h2>
-		<br>
-		<hr>
-		<br>
-		<form>
-			<label for="name">Name:</label>
-			<br>
-			<input type="text" id="contactName" name="name" placeholder="John Smith" required="required">
-			<br><br>
-			<label for="email">Email:</label>
-			<br>
-			<input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-			<br><br>
-			<label for="message">Message:</label>
-			<br>
-			<textarea id="message" name="message" required="required"></textarea>
-			<br><br>
-			<input type="submit" value="Submit">
-		</form>
-	</article>
 
-	<aside>
-		<h2>Connect With Me</h2>
-		<br>
-		<hr>
-		<br>
-
-		<a href="http://www.github.com/phatyou"><img src="assets/images/icons/github.png" alt="Github" height="40" width="40" class="icon-link" /></a>
-		<a href=""><img src="assets/images/icons/stackoverflow.png" alt="Stack Overflow" height="40" width="40" class="icon-link"/></a>
-		<a href=""><img src="assets/images/icons/linkedin.png" alt="Linked In" height="40" width="40" class="icon-link"/></a>
-	</aside>
-	<!--<div class="push"></div>-->
-</div><!--end wrapper-->
-<!--</div>end bg-container-->
-
-	<footer>
-		<div id="color-line">
-		</div>
-		<h6>&copy; Copyright Jennifer Lynn Mitchell 2017</h6>
-	</footer>
+  <footer>
+    <div class="container">
+       &copy; Copyright 2017 Jennifer Lynn Mitchell
+    </div>
+  </footer>
 </body>
 </html>
